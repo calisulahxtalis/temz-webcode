@@ -1,0 +1,41 @@
+.menu-cont {
+    display: flex;
+    flex-wrap: nowrap;
+    height: 70px;
+    width: 100%;
+    background-color: #00ff00;
+    justify-content: space-between;
+}
+
+.leading {
+    padding-left: 10%;
+    color: #ffff;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    flex-wrap: nowrap;
+    padding-right: 10%;
+}
+
+.menu-item {
+   padding: 10px 1px 10px 0px;
+}
+
+.menu-link {
+color: #ffff;
+text-decoration: none;
+padding: 24px;
+
+}
+
+.menu .active {
+    background-color: #005f00;
+    /* border: rgb(37, 165, 250) 1px solid; */
+}
+
+.menu-link:hover {
+    background-color: #087708;
+    font-style: italic;
+}
