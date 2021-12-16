@@ -7,3 +7,64 @@ body {
     margin: 0%;
 }
 
+.header {
+    width: 100%;
+    height: 750px;
+    background-image: url(../banner-chess.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.overlay {
+    width: 100%;
+    height: 640px;
+    background-color: #00ff0025;
+}
+
+.content {
+    margin: 67px;
+    padding: 5%;
+    color: white;
+}
+
+.content h1 {
+    font-size: 55pt;
+}
+
+h4 {
+    font-size: 25pt;
+}
+
+h3 {
+    font-size: 35pt;
+}
+
+.primary {
+    background-color: #00ff00;
+    color: #ffff;
+}
+
+.secondary {
+    background-color: #ffff;
+    color: #0000;
+}
+
+tertiary {
+    background-color: #0000;
+    color: #ffff;
+}
+
+.btn {
+max-width: 100%;
+height: 45px;
+border: none;
+border-radius: 10px;
+font-size: 13pt;
+padding: 15px;
+}
+
+.btn:hover {
+box-shadow: 5px 5px 8px 0px #032905;
+background-color: #1d911d60;
+border: 3px #0000 solid;
+}
