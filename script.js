@@ -1,0 +1,4 @@
+function chng() {
+    document.getElementById
+    
+}

@@ -40,4 +40,5 @@ padding: 24px;
 .menu-link:hover {
     background-color: #087708;
     font-style: italic;
+    /* text-decoration: overline; */
 }
