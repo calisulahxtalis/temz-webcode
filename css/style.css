@@ -136,6 +136,7 @@ display: flex;
     color: rgb(235, 108, 18);
     /* text-align: center; */
     margin-left: 10%;
+    width: 38%;
 }
 
 .servcs .chores h2:hover {
@@ -207,7 +208,7 @@ display: flex;
     font-size: 45pt;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: #0c9707;
-font-style: italic;
+    font-style: italic;
 }
 
 .introz .aboutan h5 {
@@ -259,4 +260,38 @@ font-style: italic;
     color: #ffff;
     font-size: 15pt;
     margin: 15px;
+}
+
+.Contactcode {
+    width: 100%;
+    height: auto;
+}
+
+.findus {
+    width: 50%;
+    height: auto;
+}
+
+.Query {
+    width: 50%;
+    height: auto;
+    float: right;
+    display: flex;
+}
+
+.contact {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 23pt;
+    color: #dd0e2a;
+    width: 10%;
+}
+
+.contact:hover {
+    text-decoration: underline;
+    color: #16af11;
+}
+
+.intel {
+    font-size: 15pt;
+    color: gray;
 }
