@@ -273,10 +273,33 @@ display: flex;
 }
 
 .Query {
-    width: 50%;
+    width: 60%;
     height: auto;
     float: right;
+    
+}
+.Query1 {
+    width: 100%;
+    height: auto;
     display: flex;
+}
+
+.Query .Fname {
+    width: 49%;
+    height: auto;
+    margin: 1%;
+}
+
+.Query .Lname {
+    width: 49%;
+    height: auto;
+    margin: 1%;
+}
+
+.Query .Email {
+    width: 100%;
+    height: auto;
+    margin: 1%;
 }
 
 .contact {
@@ -295,3 +318,16 @@ display: flex;
     font-size: 15pt;
     color: gray;
 }
+
+.form-input {
+    color: gray;
+    border: gray 2px solid;
+    width: 95%;
+    background-color: #ffff;
+    font-size: 11pt;
+    padding: 2%;
+    border-radius: 3px;
+    
+}
+
+
