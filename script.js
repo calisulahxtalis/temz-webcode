@@ -1,4 +1,4 @@
 function chng() {
-    document.getElementById
+    document.getElementById("form").style = "border = rgb(255, 1, 1) 2px solid"
     
 }

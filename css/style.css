@@ -276,6 +276,7 @@ display: flex;
     width: 60%;
     height: auto;
     float: right;
+    justify-content: center;
     
 }
 .Query1 {
@@ -297,7 +298,7 @@ display: flex;
 }
 
 .Query .Email {
-    width: 100%;
+    width: 99%;
     height: auto;
     margin: 1%;
 }
@@ -320,14 +321,38 @@ display: flex;
 }
 
 .form-input {
-    color: gray;
+    color: rgb(2, 2, 2);
     border: gray 2px solid;
     width: 95%;
-    background-color: #ffff;
+    background-color: rgb(238, 234, 234);
     font-size: 11pt;
     padding: 2%;
     border-radius: 3px;
     
 }
 
+.form-input:hover {
+    border: rgb(255, 1, 1) 2px solid;
+    
+}
+
+
+.Query .messege {
+    width: 99%;
+    height: auto;
+    margin: 1%;
+}
+
+textarea {
+    background-color: rgb(238, 234, 234);
+    border: gray 2px solid;
+    border-radius: 4px;
+    margin-right: 2%;
+}
+
+textarea:hover {
+    border: rgb(255, 1, 1) 2px solid;
+
+
+}
 
