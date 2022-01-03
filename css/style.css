@@ -271,6 +271,9 @@ display: flex;
     width: 50%;
     height: auto;
 }
+.findus p {
+    font-size: 15pt;
+}
 
 .Query {
     width: 60%;
@@ -333,6 +336,7 @@ display: flex;
 
 .form-input:hover {
     border: rgb(255, 1, 1) 2px solid;
+    color: red;
     
 }
 
@@ -352,7 +356,7 @@ textarea {
 
 textarea:hover {
     border: rgb(255, 1, 1) 2px solid;
-
+    color: red;
 
 }
 
